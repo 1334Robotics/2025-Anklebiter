@@ -28,11 +28,8 @@ public class SwerveSubsystem extends SubsystemBase {
       throw new RuntimeException(e);
     }
 
-    swerveDrive.setHeadingCorrection(false);
-    for (SwerveModule module : swerveDrive.getModules()) {
-      module.setAntiJitter(false);
-    }
-    swerveDrive.setCosineCompensator(false);
+    swerveDrive.setHeadingCorrection(true);
+    swerveDrive.setCosineCompensator(true);
   }
 
   public void drive(Translation2d translation, double rotation, boolean fieldRelative) {
