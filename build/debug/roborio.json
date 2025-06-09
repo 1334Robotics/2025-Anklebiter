@@ -1,9 +1,0 @@
-[
-  {
-    "type": "java",
-    "name": "frcJava",
-    "port": 8349,
-    "target": "169.254.195.106",
-    "project": "Anklebiter-2025"
-  }
-]
