@@ -13,7 +13,7 @@ import swervelib.math.Matter;
 public class Constants {
 
     // physical properties
-    public static final double ROBOT_MASS = Units.poundsToKilograms(45);
+    public static final double ROBOT_MASS = 20.4117; // 45lbs into kg
     public static final Matter CHASSIS = new Matter(new Translation3d(0, 0, Units.inchesToMeters(8)), ROBOT_MASS);
 
     public static final double LOOP_TIME = 0.13; 
